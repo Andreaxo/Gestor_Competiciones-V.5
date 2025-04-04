@@ -1,0 +1,73 @@
+.details__window__flotant{
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    padding: 0 3% 5% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 3rem 0 0 3rem;
+    transform: translateY(-50%);
+    animation: slideInFromRight 0.5s ease-out forwards;
+    z-index: 9995;
+}
+
+
+.details__window__flotant-box{
+    padding: 2rem;
+    width: 90%;
+    border-radius: 2rem;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.212);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.details__window__flotant-titles{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.details__window__flotant-titles>h1{
+    font-size: 2.5rem;
+    color: white;
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.details__window__flotant-titles>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details__window__flotant-titles>a{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.details__window__flotant-titles>a:hover{
+    transform: scale(1.02);
+}
+
+
+
+.details__window__flotant-item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.details__window__flotant-participants{
+    width: 100%;
+    display: flex;
+    padding: 0 2rem;
+}

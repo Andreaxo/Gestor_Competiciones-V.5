@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.publicCompetitions__box {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: var(--color-white);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  overflow: auto;
+}
+
+.publicCompetitions__box-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.publicCompetitions__box-icons-list {
+  width: 8rem;
+  height: auto;
+}
+
+
+.publicCompetitions__box-title {
+  font-size: 2rem;
+  color: black;
+  width: auto;
+  padding: .2rem 2rem;
+  align-self: center;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.publicCompetitions__box-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 30%));
+  grid-template-rows: repeat(auto-fill, minmax(8rem, 40%));
+  gap: 4rem;
+  background-color: transparent;
+  justify-content: center;
+
+}
+
+.publicCompetitions__box-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-box-shadow: 0px 4px 24px -14px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 4px 24px -14px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 4px 24px -14px rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
+  padding: 5%;
+  margin-bottom: 2rem;
+  width: 90%;
+  height: 90%;
+  transition: all 0.5s;
+  cursor: pointer;
+  justify-self: center;
+  border: solid 1px black;
+}
+
+.publicCompetitions__box-item>div {
+  height: 18rem;
+  border-radius: 1rem;
+}
+
+.publicCompetitions__box-name {
+  all: unset;
+  transition: all 0.5s;
+  text-align: left;
+  font-weight: var(--font-weight-title);
+  color: black;
+  width: auto;
+  font-size: 1.2rem;
+}
+
+.publicCompetitions__box-description{
+  max-height: 30%;
+  overflow: hidden;
+}
+
+.publicCompetitions__box-description>p{
+  height: 100%;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.publicCompetitions__box-button{
+  text-decoration: none;
+  text-align: left;
+  color: var(--color-green);
+}
